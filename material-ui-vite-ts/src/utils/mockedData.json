@@ -1,0 +1,104 @@
+{
+  "stations": [
+    {
+      "id": "1",
+      "name": "Amsterdam Centraal",
+      "code": "AMS",
+      "country": "Netherlands"
+    },
+    {
+      "id": "2",
+      "name": "Rotterdam Centraal",
+      "code": "RTM",
+      "country": "Netherlands"
+    },
+    {
+      "id": "3",
+      "name": "Paris Gare du Nord",
+      "code": "PAR",
+      "country": "France"
+    },
+    { "id": "4", "name": "Lyon Part-Dieu", "code": "LYO", "group": "France" },
+    {
+      "id": "5",
+      "name": "London St Pancras",
+      "code": "STP",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "6",
+      "name": "Manchester Piccadilly",
+      "code": "MAN",
+      "country": "United Kingdom"
+    },
+    { "id": "7", "name": "Brussels Midi", "code": "BRU", "country": "Belgium" },
+    {
+      "id": "8",
+      "name": "Antwerpen Centraal",
+      "code": "ANT",
+      "country": "Belgium"
+    }
+  ],
+  "operators": [
+    { "id": "o1", "name": "Eurostar" },
+    { "id": "o2", "code": "EUR_STA", "name": "SNCF Voyageurs" },
+    { "id": "o3", "code": "EUR", "name": "Avanti West Coast" },
+    { "id": "o4", "code": "EUR", "name": "NS International" }
+  ],
+  "journeys": [
+    {
+      "id": "t1",
+      "originCode": "AMS",
+      "destinationCode": "PAR",
+      "operatorName": "Eurostar",
+      "departureTime": "08:15",
+      "duration": "3h 20m",
+      "price": "€89"
+    },
+    {
+      "id": "t2",
+      "originCode": "AMS",
+      "destinationCode": "BRU",
+      "operatorName": "Eurostar",
+      "departureTime": "10:30",
+      "duration": "1h 50m",
+      "price": "€45"
+    },
+    {
+      "id": "t3",
+      "originCode": "PAR",
+      "destinationCode": "STP",
+      "operatorName": "Eurostar",
+      "departureTime": "14:01",
+      "duration": "2h 17m",
+      "price": "€120"
+    },
+    {
+      "id": "t4",
+      "originCode": "LYO",
+      "destinationCode": "PAR",
+      "operatorName": "SNCF Voyageurs",
+      "departureTime": "07:00",
+      "duration": "2h 00m",
+      "price": "€39"
+    },
+    {
+      "id": "t5",
+      "originCode": "STP",
+      "destinationCode": "MAN",
+      "operatorName": "Avanti West Coast",
+      "departureTime": "11:20",
+      "duration": "2h 06m",
+      "price": "£42"
+    },
+    {
+      "id": "t6",
+      "originCode": "BRU",
+      "destinationCode": "AMS",
+      "operatorName": "NS International",
+      "departureTime": "16:45",
+      "duration": "2h 52m",
+      "price": "€29"
+    }
+  ]
+}
